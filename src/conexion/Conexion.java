@@ -7,7 +7,7 @@ public class Conexion {
     public static Connection conectar() {
 
         try {
-            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sistemaventa", "root", "");
+            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/proyectofinaal", "root", "");
             return cn;
         } catch (SQLException e) {
             System.out.println("Error de conexion " + e);
