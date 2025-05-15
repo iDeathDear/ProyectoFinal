@@ -1,7 +1,7 @@
 package conexion;
 
 import java.sql.*;
-
+//hola prueba
 public class Conexion {
 
     public static Connection conectar() {
