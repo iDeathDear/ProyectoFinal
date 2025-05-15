@@ -5,7 +5,7 @@ import datos.Cliente;
 import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
-
+//comentario 2
 public class Ctrl_Cliente {
     
     Connection cn;
